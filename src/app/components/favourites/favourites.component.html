@@ -1,0 +1,6 @@
+<div class="favourites">
+  <app-book-list
+    [books]="favourites"
+    (removeFromFavourites)="removeFromFavourites($event)"
+  ></app-book-list>
+</div>
